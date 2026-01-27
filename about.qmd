@@ -1,9 +1,14 @@
 ---
 title: "About"
+description: "About Me"
 ---
 
-About this site
+## Philippe Sloksnath
 
-```{r}
-1 + 1
-```
+Hello, my name is Philippe Sloksnath. I am a Research and Teaching Assistant at the Department of Communication and Media Research at University of Zurich. My research is situated in Communication Science and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices.
+
+- **Email:** philippe.sloksnath@uzh.ch
+- **GitHub:** https://github.com/sloegge
+- **LinkedIn:** www.linkedin.com/in/philippe-sloksnath
+- **Bluesky:** https://bsky.app/profile/philippesloksnath.bsky.social
+- **Google Scholar:** https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ
