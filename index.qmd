@@ -1,11 +1,6 @@
 ---
-title: "philippesloksnath.github.io"
+title: "Philippe Sloksnath"
 ---
 
-This is a Quarto website.
+Hello, my name is Philippe Sloksnath. I am a Research and Teaching Assistant at the Department of Communication and Media Research at University of Zurich.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
