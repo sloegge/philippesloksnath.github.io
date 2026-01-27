@@ -1,5 +1,6 @@
 ---
 title: "Philippe Sloksnath"
+description: "Personal website of Philippe Sloksnath"
 ---
 
 Hello, my name is Philippe Sloksnath. I am a Research and Teaching Assistant at the Department of Communication and Media Research at University of Zurich.
