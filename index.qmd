@@ -5,11 +5,30 @@ description: "Personal home page, links to research projects and publications, b
 
 I am a Research and Teaching Assistant at the Department of Communication and Media Research at University of Zurich. My research is situated in Communication Science and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!
 
-- **Email:** philippe.sloksnath@uzh.ch
-- **GitHub:** https://github.com/sloegge
-- **LinkedIn:** www.linkedin.com/in/philippe-sloksnath
-- **Bluesky:** https://bsky.app/profile/philippesloksnath.bsky.social
-- **Google Scholar:** https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ
+<h3>Find me online</h3>
+
+<ul>
+  <li>
+    <i class="fa fa-envelope"></i>
+    <a href="mailto:philippe.sloksnath@uzh.ch">philippe.sloksnath@uzh.ch</a>
+  </li>
+  <li>
+    <i class="fa fa-github"></i>
+    <a href="https://github.com/sloegge">GitHub</a>
+  </li>
+  <li>
+    <i class="fa fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/philippe-sloksnath">LinkedIn</a>
+  </li>
+  <li>
+    <i class="fa fa-cloud"></i>
+    <a href="https://bsky.app/profile/philippesloksnath.bsky.social">Bluesky</a>
+  </li>
+  <li>
+    <i class="ai ai-google-scholar"></i>
+    <a href="https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ">Google Scholar</a>
+  </li>
+</ul>
 
 # Publications & Preprints
 
