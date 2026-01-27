@@ -1,6 +1,6 @@
 ---
-title: "About"
-description: "About Me"
+title: "Blog"
+description: "Still Blog"
 ---
 
 # Blog
