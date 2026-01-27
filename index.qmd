@@ -10,7 +10,7 @@ I am a Research and Teaching Assistant at the Department of Communication and Me
 <ul>
   <li>
     <i class="fa fa-envelope"></i>
-    <a href="mailto:philippe.sloksnath@uzh.ch">philippe.sloksnath@uzh.ch" target="_blank" rel="noopener noreferrer"</a>
+    <a href="mailto:philippe.sloksnath@uzh.ch">philippe.sloksnath@uzh.ch target="_blank" rel="noopener noreferrer"</a>
   </li>
   <li>
     <i class="fa fa-github"></i>
