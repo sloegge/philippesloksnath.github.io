@@ -15,3 +15,4 @@ _site/
 .DS_Store
 Thumbs.db
 /.quarto/
+.Rproj.user

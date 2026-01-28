@@ -3,32 +3,29 @@ title: "Philippe Sloksnath"
 description: "Personal home page, links to research projects and publications, blog if I find the time"
 ---
 
+![](images/philippe.jpg){.profile}
+
 I am a Research and Teaching Assistant at the Department of Communication and Media Research at University of Zurich. My research is situated in Communication Science and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!
 
-<h3>Find me online</h3>
+<h3>Contact Information</h3>
 
-<ul>
-  <li>
+<div class="social-icons">
+  <a href="mailto:philippe.sloksnath@uzh.ch" target="_blank" rel="noopener noreferrer" aria-label="Email">
     <i class="fa fa-envelope"></i>
-    <a href="mailto:philippe.sloksnath@uzh.ch">philippe.sloksnath@uzh.ch target="_blank" rel="noopener noreferrer"</a>
-  </li>
-  <li>
+  </a>
+  <a href="https://github.com/sloegge" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
     <i class="fa fa-github"></i>
-    <a href="https://github.com/sloegge" target="_blank" rel="noopener noreferrer">GitHub</a>
-  </li>
-  <li>
+  </a>
+  <a href="https://www.linkedin.com/in/philippe-sloksnath" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
     <i class="fa fa-linkedin"></i>
-    <a href="https://www.linkedin.com/in/philippe-sloksnath" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-  </li>
-  <li>
+  </a>
+  <a href="https://bsky.app/profile/philippesloksnath.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
     <i class="fa fa-cloud"></i>
-    <a href="https://bsky.app/profile/philippesloksnath.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
-  </li>
-  <li>
+  </a>
+  <a href="https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
     <i class="ai ai-google-scholar"></i>
-    <a href="https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-  </li>
-</ul>
+  </a>
+</div>
 
 # Publications & Preprints
 

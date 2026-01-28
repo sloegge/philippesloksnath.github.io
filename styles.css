@@ -1,1 +1,18 @@
-/* css styles */
+.profile {
+  float: right;
+  width: 240px;
+  max-width: 40%;
+  margin: 0 0 1rem 1rem;
+  border-radius: 16px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 1.6rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
