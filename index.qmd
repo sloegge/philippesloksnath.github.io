@@ -7,20 +7,21 @@ description: "Personal home page, links to research projects and publications, b
 
 I am a Research and Teaching Assistant at the Department of Communication and Media Research at University of Zurich. My research is situated in Communication Science and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!
 
+
 <h3>Contact Information</h3>
 
 <div class="social-icons">
-  <a href="mailto:philippe.sloksnath@uzh.ch" target="_blank" rel="noopener noreferrer" aria-label="Email">
-    <i class="fa fa-envelope"></i>
+  <a href="mailto:philippe.sloksnath@uzh.ch" aria-label="Email">
+    <i class="bi bi-envelope"></i>
   </a>
   <a href="https://github.com/sloegge" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-    <i class="fa fa-github"></i>
+    <i class="bi bi-github"></i>
   </a>
   <a href="https://www.linkedin.com/in/philippe-sloksnath" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-    <i class="fa fa-linkedin"></i>
+    <i class="bi bi-linkedin"></i>
   </a>
   <a href="https://bsky.app/profile/philippesloksnath.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
-    <i class="fa fa-cloud"></i>
+    <i class="bi bi-cloud"></i>
   </a>
   <a href="https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
     <i class="ai ai-google-scholar"></i>
@@ -31,3 +32,5 @@ I am a Research and Teaching Assistant at the Department of Communication and Me
 
 Give me a bit of time here. 
 
+# Open Science
+There is nothing to say against Open Science, unless you have something to hide. I try to make my research as transparent and reproducible as possible. Please reach out to me if something is unclear, not reported, is not reproducible, or if you have suggestions for improvement.
