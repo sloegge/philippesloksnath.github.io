@@ -11,31 +11,43 @@
 
 
 /* =============================
-   Docked sidebar styling
+   Docked sidebar styling (Quarto uses #quarto-sidebar)
 ============================= */
 
+#quarto-sidebar,
+.quarto-sidebar,
 .sidebar {
   background-color: #f2f6fb; /* soft blue-grey */
   border-right: 1px solid #dbe4f0;
 }
 
 /* Sidebar links */
+#quarto-sidebar a,
+.quarto-sidebar a,
 .sidebar a {
   color: #1f3a5f;
 }
 
+#quarto-sidebar a:hover,
+#quarto-sidebar a:focus-visible,
+.quarto-sidebar a:hover,
+.quarto-sidebar a:focus-visible,
 .sidebar a:hover,
 .sidebar a:focus-visible {
   color: var(--bs-primary);
 }
 
 /* Active page highlight */
+#quarto-sidebar .active,
+.quarto-sidebar .active,
 .sidebar .active {
   font-weight: 600;
   color: var(--bs-primary);
 }
 
 /* Search box */
+#quarto-sidebar .sidebar-search input,
+.quarto-sidebar .sidebar-search input,
 .sidebar .sidebar-search input {
   background-color: #ffffff;
   border: 1px solid #d0daea;
@@ -43,7 +55,41 @@
 
 
 /* =============================
-   Profile image
+   Sidebar "content" block polish
+   (Research Interests list + CV link)
+============================= */
+
+/* Make the sidebar feel like content, not just nav */
+#quarto-sidebar .sidebar-item,
+.quarto-sidebar .sidebar-item,
+.sidebar .sidebar-item {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Section title styling (you used **Research Interests**) */
+#quarto-sidebar .sidebar-item strong,
+.quarto-sidebar .sidebar-item strong,
+.sidebar .sidebar-item strong {
+  display: inline-block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+  margin-top: 0.25rem;
+}
+
+/* Divider spacing */
+#quarto-sidebar hr,
+.quarto-sidebar hr,
+.sidebar hr {
+  margin: 0.75rem 0;
+  opacity: 0.4;
+}
+
+
+/* =============================
+   Profile image (float right next to text)
 ============================= */
 
 .profile {
@@ -71,9 +117,11 @@
    Quarto: website > sidebar > tools
 ============================= */
 
+#quarto-sidebar .sidebar-tools,
+.quarto-sidebar .sidebar-tools,
 .sidebar .sidebar-tools {
   display: flex;
-  flex-direction: column;       /* vertical layout */
+  flex-direction: column; /* vertical layout */
   align-items: center;
   gap: 0.9rem;
   margin-top: 0.75rem;
@@ -82,6 +130,8 @@
 }
 
 /* Tool links */
+#quarto-sidebar .sidebar-tools a,
+.quarto-sidebar .sidebar-tools a,
 .sidebar .sidebar-tools a {
   display: flex;
   align-items: center;
@@ -94,6 +144,10 @@
               color 0.18s ease;
 }
 
+#quarto-sidebar .sidebar-tools a:hover,
+#quarto-sidebar .sidebar-tools a:focus-visible,
+.quarto-sidebar .sidebar-tools a:hover,
+.quarto-sidebar .sidebar-tools a:focus-visible,
 .sidebar .sidebar-tools a:hover,
 .sidebar .sidebar-tools a:focus-visible {
   transform: translateY(-2px);
@@ -102,8 +156,10 @@
 }
 
 /* Larger icons */
+#quarto-sidebar .sidebar-tools i.bi,
+.quarto-sidebar .sidebar-tools i.bi,
 .sidebar .sidebar-tools i.bi {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1;
 }
 
@@ -112,6 +168,8 @@
    Tooltips (from aria-label)
 ============================= */
 
+#quarto-sidebar .sidebar-tools a::after,
+.quarto-sidebar .sidebar-tools a::after,
 .sidebar .sidebar-tools a::after {
   content: attr(aria-label);
   position: absolute;
@@ -129,6 +187,8 @@
   transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
+#quarto-sidebar .sidebar-tools a::before,
+.quarto-sidebar .sidebar-tools a::before,
 .sidebar .sidebar-tools a::before {
   content: "";
   position: absolute;
@@ -143,6 +203,14 @@
   transition: opacity 0.15s ease;
 }
 
+#quarto-sidebar .sidebar-tools a:hover::after,
+#quarto-sidebar .sidebar-tools a:focus-visible::after,
+#quarto-sidebar .sidebar-tools a:hover::before,
+#quarto-sidebar .sidebar-tools a:focus-visible::before,
+.quarto-sidebar .sidebar-tools a:hover::after,
+.quarto-sidebar .sidebar-tools a:focus-visible::after,
+.quarto-sidebar .sidebar-tools a:hover::before,
+.quarto-sidebar .sidebar-tools a:focus-visible::before,
 .sidebar .sidebar-tools a:hover::after,
 .sidebar .sidebar-tools a:focus-visible::after,
 .sidebar .sidebar-tools a:hover::before,
@@ -150,20 +218,27 @@
   opacity: 1;
 }
 
+#quarto-sidebar .sidebar-tools a:hover::after,
+#quarto-sidebar .sidebar-tools a:focus-visible::after,
+.quarto-sidebar .sidebar-tools a:hover::after,
+.quarto-sidebar .sidebar-tools a:focus-visible::after,
 .sidebar .sidebar-tools a:hover::after,
 .sidebar .sidebar-tools a:focus-visible::after {
   transform: translateY(-50%) translateX(2px);
 }
 
-
 /* Tooltip repositioning on mobile */
 @media (max-width: 991px) {
+  #quarto-sidebar .sidebar-tools a::after,
+  .quarto-sidebar .sidebar-tools a::after,
   .sidebar .sidebar-tools a::after {
     left: 50%;
     top: 125%;
     transform: translateX(-50%);
   }
 
+  #quarto-sidebar .sidebar-tools a::before,
+  .quarto-sidebar .sidebar-tools a::before,
   .sidebar .sidebar-tools a::before {
     left: 50%;
     top: 105%;
@@ -171,6 +246,10 @@
     border-color: transparent transparent rgba(0, 0, 0, 0.85) transparent;
   }
 
+  #quarto-sidebar .sidebar-tools a:hover::after,
+  #quarto-sidebar .sidebar-tools a:focus-visible::after,
+  .quarto-sidebar .sidebar-tools a:hover::after,
+  .quarto-sidebar .sidebar-tools a:focus-visible::after,
   .sidebar .sidebar-tools a:hover::after,
   .sidebar .sidebar-tools a:focus-visible::after {
     transform: translateX(-50%) translateY(2px);
@@ -183,6 +262,12 @@
 ============================= */
 
 @media (prefers-reduced-motion: reduce) {
+  #quarto-sidebar .sidebar-tools a,
+  #quarto-sidebar .sidebar-tools a::after,
+  #quarto-sidebar .sidebar-tools a::before,
+  .quarto-sidebar .sidebar-tools a,
+  .quarto-sidebar .sidebar-tools a::after,
+  .quarto-sidebar .sidebar-tools a::before,
   .sidebar .sidebar-tools a,
   .sidebar .sidebar-tools a::after,
   .sidebar .sidebar-tools a::before,

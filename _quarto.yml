@@ -19,17 +19,22 @@ website:
         text: CV
         target: _blank
 
-    sidebar:
+  sidebar:
     style: "docked"
-    search: false   # set to true if you want the search box
+    search: false
 
     contents:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-      - href: blog.qmd
-        text: Blog
+      - text: "**Research Interests**"
+      - text: "AI & persuasion"
+      - text: "Media effects"
+      - text: "Misinformation"
+      - text: "Human–computer interaction"
+      - text: "Open science"
+      - text: "---"
+      - icon: file-earmark-person
+        text: "Curriculum Vitae"
+        href: assets/cv.pdf
+        target: _blank
 
     tools:
       - icon: envelope
