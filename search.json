@@ -15,11 +15,7 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "&lt;a href=\"mailto:philippe.sloksnath@uzh.ch\"\n   aria-label=\"Email\"\n   data-tooltip=\"Email\"&gt;\n  &lt;i class=\"bi bi-envelope\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://github.com/sloegge\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"GitHub\"\n   data-tooltip=\"GitHub\"&gt;\n  &lt;i class=\"bi bi-github\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://www.linkedin.com/in/philippe-sloksnath\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"LinkedIn\"\n   data-tooltip=\"LinkedIn\"&gt;\n  &lt;i class=\"bi bi-linkedin\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://bsky.app/profile/philippesloksnath.bsky.social\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"Bluesky\"\n   data-tooltip=\"Bluesky\"&gt;\n  &lt;i class=\"si si-bluesky\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"Google Scholar\"\n   data-tooltip=\"Google Scholar\"&gt;\n  &lt;i class=\"ai ai-google-scholar\"&gt;&lt;/i&gt;\n&lt;/a&gt;",
-    "crumbs": [
-      "Home",
-      "Contact"
-    ]
+    "text": "&lt;a href=\"mailto:philippe.sloksnath@uzh.ch\"\n   aria-label=\"Email\"\n   data-tooltip=\"Email\"&gt;\n  &lt;i class=\"bi bi-envelope\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://github.com/sloegge\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"GitHub\"\n   data-tooltip=\"GitHub\"&gt;\n  &lt;i class=\"bi bi-github\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://www.linkedin.com/in/philippe-sloksnath\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"LinkedIn\"\n   data-tooltip=\"LinkedIn\"&gt;\n  &lt;i class=\"bi bi-linkedin\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://bsky.app/profile/philippesloksnath.bsky.social\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"Bluesky\"\n   data-tooltip=\"Bluesky\"&gt;\n  &lt;i class=\"si si-bluesky\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"Google Scholar\"\n   data-tooltip=\"Google Scholar\"&gt;\n  &lt;i class=\"ai ai-google-scholar\"&gt;&lt;/i&gt;\n&lt;/a&gt;"
   },
   {
     "objectID": "research.html",
