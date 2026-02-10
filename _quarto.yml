@@ -19,9 +19,17 @@ website:
         text: CV
         target: _blank
 
-  sidebar:
+    sidebar:
     style: "docked"
-    search: true
+    search: false   # set to true if you want the search box
+
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: blog.qmd
+        text: Blog
 
     tools:
       - icon: envelope
