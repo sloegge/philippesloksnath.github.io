@@ -275,3 +275,28 @@
     transition: none !important;
   }
 }
+
+/* =============================
+   FORCE sidebar tools vertical + bigger
+============================= */
+
+/* Target Quarto sidebar tools container */
+#quarto-sidebar .sidebar-tools {
+  display: flex !important;
+  flex-direction: column !important;   /* vertical */
+  align-items: center;
+  gap: 1rem;                           /* space between icons */
+}
+
+/* Center each icon link */
+#quarto-sidebar .sidebar-tools a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Increase icon size */
+#quarto-sidebar .sidebar-tools i.bi {
+  font-size: 2rem;   /* <-- adjust size here */
+  line-height: 1;
+}

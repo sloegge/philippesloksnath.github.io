@@ -3,7 +3,7 @@ title: "Philippe Sloksnath"
 description: ""
 ---
 
-## Welcome
+### Welcome!
 
 ![](images/philippe.jpg){.profile}
 

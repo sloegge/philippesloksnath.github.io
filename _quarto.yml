@@ -15,26 +15,24 @@ website:
         text: Research
       - href: blog.qmd
         text: Blog
-      - href: assets/cv.pdf
-        text: CV
-        target: _blank
 
   sidebar:
     style: "docked"
     search: false
 
     contents:
-      - text: "**Research Interests**"
-      - text: "AI & persuasion"
-      - text: "Media effects"
-      - text: "Misinformation"
-      - text: "Human–computer interaction"
-      - text: "Open science"
-      - text: "---"
-      - icon: file-earmark-person
-        text: "Curriculum Vitae"
-        href: assets/cv.pdf
-        target: _blank
+    - section: Research Interests
+      contents:
+      - text: AI & persuasion
+      - text: Media effects
+      - text: Misinformation
+      - text: Human–computer interaction
+      - text: Open science
+
+    - icon: file-earmark-person
+      text: CV
+      href: assets/cv.pdf
+      target: _blank
 
     tools:
       - icon: envelope
