@@ -4,13 +4,34 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog"
+    "text": "Blog\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Coming soon (I hope).\n\n\n\nSloksnath, P. (2025). Delegating Moral Decisions to AI Systems.\nMaster’s thesis, University of Zurich.\n[https://doi.org/10.5167/uzh-269413]\nStock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16).\nPeople in 26 countries prefer individual control to commercial or governmental control over online choice architectures.\n[https://doi.org/10.31219/osf.io/haqu9_v1]\nRuggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9).\nGlobal well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.\n[https://doi.org/10.31234/osf.io/3jyda_v1]"
+  },
+  {
+    "objectID": "research.html#preprints",
+    "href": "research.html#preprints",
+    "title": "Research",
+    "section": "",
+    "text": "Sloksnath, P. (2025). Delegating Moral Decisions to AI Systems.\nMaster’s thesis, University of Zurich.\n[https://doi.org/10.5167/uzh-269413]\nStock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16).\nPeople in 26 countries prefer individual control to commercial or governmental control over online choice architectures.\n[https://doi.org/10.31219/osf.io/haqu9_v1]\nRuggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9).\nGlobal well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.\n[https://doi.org/10.31234/osf.io/3jyda_v1]"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Philippe Sloksnath",
     "section": "",
-    "text": "I am a Research and Teaching Assistant at the Department of Communication and Media Research at University of Zurich. My research is situated in Communication Science and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!\n\nContact Information\n\n\n              \n\n\nPublications & Preprints\nGive me a bit of time here.\n\n\nOpen Science\nI value scientific integrity because it brings together core principles that are essential for building and maintaining trust among scientists and between science and society. Adherence to honesty, transparency, and accountability is in my view crucial for the accumulation of reliable, cumulative knowledge. Thus, I strive to make my research as transparent and reproducible as possible. Please reach out if anything is unclear, insufficiently reported, not reproducible, or if you have suggestions for improvement, or if you just want to informally chat about Open Science."
+    "text": "# Hello, fellow traveler.\nI am a Research and Teaching Assistant at the  Department of Communication and Media Research  at University of Zurich, in the Media Psychology & Methods Division. My research is situated in Communication Science, Psychology and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!"
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Philippe Sloksnath",
+    "section": "Contact Information",
+    "text": "Contact Information"
   }
 ]
