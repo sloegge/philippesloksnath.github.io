@@ -8,8 +8,15 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: research.qmd
+        text: Research
       - href: blog.qmd
         text: Blog
+      - href: assets/cv.pdf
+        text: CV
+  sidebar: 
+    style: "docked"
+    search: true
 
 format:
   html:
