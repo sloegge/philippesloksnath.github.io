@@ -9,7 +9,6 @@
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.25);
 }
 
-
 /* =============================
    Docked sidebar styling (Quarto uses #quarto-sidebar)
 ============================= */
@@ -53,7 +52,6 @@
   border: 1px solid #d0daea;
 }
 
-
 /* =============================
    Sidebar "content" block polish
    (Research Interests list + CV link)
@@ -67,7 +65,7 @@
   line-height: 1.4;
 }
 
-/* Section title styling (you used **Research Interests**) */
+/* Section title styling */
 #quarto-sidebar .sidebar-item strong,
 .quarto-sidebar .sidebar-item strong,
 .sidebar .sidebar-item strong {
@@ -87,12 +85,13 @@
   opacity: 0.4;
 }
 
-
 /* =============================
    Profile image (float right next to text)
+   Quarto can render markdown images as <figure>, so style both.
 ============================= */
 
-.profile {
+figure.profile,
+img.profile {
   float: right;
   width: 320px;
   max-width: 45%;
@@ -101,29 +100,34 @@
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
 }
 
-/* Stack image on mobile */
+figure.profile {
+  padding: 0;
+}
+
 @media (max-width: 991px) {
-  .profile {
+  figure.profile,
+  img.profile {
     float: none;
     display: block;
+    width: auto;
     max-width: 100%;
     margin: 0 auto 1rem auto;
   }
 }
 
-
 /* =============================
    Sidebar tools (contact icons)
    Quarto: website > sidebar > tools
+   Force VERTICAL + BIGGER (overrides Quarto defaults)
 ============================= */
 
 #quarto-sidebar .sidebar-tools,
 .quarto-sidebar .sidebar-tools,
 .sidebar .sidebar-tools {
-  display: flex;
-  flex-direction: column; /* vertical layout */
+  display: flex !important;
+  flex-direction: column !important; /* vertical */
   align-items: center;
-  gap: 0.9rem;
+  gap: 1rem; /* spacing between icons */
   margin-top: 0.75rem;
   padding-top: 0.75rem;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
@@ -139,6 +143,7 @@
   color: var(--bs-primary);
   opacity: 0.9;
   position: relative;
+  padding: 0.15rem; /* slightly bigger click target */
   transition: transform 0.18s ease,
               opacity 0.18s ease,
               color 0.18s ease;
@@ -155,14 +160,13 @@
   outline: none;
 }
 
-/* Larger icons */
+/* BIGGER icons (change this number if you want even larger) */
 #quarto-sidebar .sidebar-tools i.bi,
 .quarto-sidebar .sidebar-tools i.bi,
 .sidebar .sidebar-tools i.bi {
-  font-size: 1.8rem;
+  font-size: 2rem; /* <--- icon size */
   line-height: 1;
 }
-
 
 /* =============================
    Tooltips (from aria-label)
@@ -256,7 +260,6 @@
   }
 }
 
-
 /* =============================
    Accessibility
 ============================= */
@@ -274,29 +277,4 @@
   .navbar {
     transition: none !important;
   }
-}
-
-/* =============================
-   FORCE sidebar tools vertical + bigger
-============================= */
-
-/* Target Quarto sidebar tools container */
-#quarto-sidebar .sidebar-tools {
-  display: flex !important;
-  flex-direction: column !important;   /* vertical */
-  align-items: center;
-  gap: 1rem;                           /* space between icons */
-}
-
-/* Center each icon link */
-#quarto-sidebar .sidebar-tools a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Increase icon size */
-#quarto-sidebar .sidebar-tools i.bi {
-  font-size: 2rem;   /* <-- adjust size here */
-  line-height: 1;
 }

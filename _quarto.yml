@@ -22,13 +22,14 @@ website:
 
     contents:
     - section: Research Interests
+      expanded: true
       contents:
       - text: AI & persuasion
       - text: Media effects
       - text: Misinformation
       - text: Human–computer interaction
       - text: Open science
-
+      - text: "---"
     - icon: file-earmark-person
       text: CV
       href: assets/cv.pdf
