@@ -278,3 +278,28 @@ figure.profile {
     transition: none !important;
   }
 }
+
+/* =============================
+   Sidebar tools: vertical + bigger
+============================= */
+
+/* Force vertical stacking */
+#quarto-sidebar .sidebar-tools {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  gap: 1.2rem;        /* vertical spacing = “breaks” */
+}
+
+/* Center icons */
+#quarto-sidebar .sidebar-tools a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Increase icon size */
+#quarto-sidebar .sidebar-tools i.bi {
+  font-size: 2.2rem;  /* <-- change this value */
+  line-height: 1;
+}
