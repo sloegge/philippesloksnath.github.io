@@ -4,34 +4,63 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "&lt;a href=\"mailto:philippe.sloksnath@uzh.ch\"\n   aria-label=\"Email\"\n   data-tooltip=\"Email\"&gt;\n  &lt;i class=\"bi bi-envelope\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://github.com/sloegge\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"GitHub\"\n   data-tooltip=\"GitHub\"&gt;\n  &lt;i class=\"bi bi-github\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://www.linkedin.com/in/philippe-sloksnath\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"LinkedIn\"\n   data-tooltip=\"LinkedIn\"&gt;\n  &lt;i class=\"bi bi-linkedin\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://bsky.app/profile/philippesloksnath.bsky.social\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"Bluesky\"\n   data-tooltip=\"Bluesky\"&gt;\n  &lt;i class=\"si si-bluesky\"&gt;&lt;/i&gt;\n&lt;/a&gt;\n\n&lt;a href=\"https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ\"\n   target=\"_blank\"\n   rel=\"noopener noreferrer\"\n   aria-label=\"Google Scholar\"\n   data-tooltip=\"Google Scholar\"&gt;\n  &lt;i class=\"ai ai-google-scholar\"&gt;&lt;/i&gt;\n&lt;/a&gt;",
+    "crumbs": [
+      "Home",
+      "Contact"
+    ]
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Coming soon (I hope).\n\n\n\nSloksnath, P. (2025). Delegating Moral Decisions to AI Systems.\nMaster’s thesis, University of Zurich.\n[https://doi.org/10.5167/uzh-269413]\nStock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16).\nPeople in 26 countries prefer individual control to commercial or governmental control over online choice architectures.\n[https://doi.org/10.31219/osf.io/haqu9_v1]\nRuggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9).\nGlobal well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.\n[https://doi.org/10.31234/osf.io/3jyda_v1]"
+    "text": "Coming soon (I hope).\n\n\n\nSloksnath, P. (2025). Delegating Moral Decisions to AI Systems.\nMaster’s thesis, University of Zurich.\n[https://doi.org/10.5167/uzh-269413]\nStock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16).\nPeople in 26 countries prefer individual control to commercial or governmental control over online choice architectures.\n[https://doi.org/10.31219/osf.io/haqu9_v1]\nRuggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9).\nGlobal well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.\n[https://doi.org/10.31234/osf.io/3jyda_v1]",
+    "crumbs": [
+      "Home",
+      "Research"
+    ]
   },
   {
     "objectID": "research.html#preprints",
     "href": "research.html#preprints",
     "title": "Research",
     "section": "",
-    "text": "Sloksnath, P. (2025). Delegating Moral Decisions to AI Systems.\nMaster’s thesis, University of Zurich.\n[https://doi.org/10.5167/uzh-269413]\nStock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16).\nPeople in 26 countries prefer individual control to commercial or governmental control over online choice architectures.\n[https://doi.org/10.31219/osf.io/haqu9_v1]\nRuggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9).\nGlobal well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.\n[https://doi.org/10.31234/osf.io/3jyda_v1]"
+    "text": "Sloksnath, P. (2025). Delegating Moral Decisions to AI Systems.\nMaster’s thesis, University of Zurich.\n[https://doi.org/10.5167/uzh-269413]\nStock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16).\nPeople in 26 countries prefer individual control to commercial or governmental control over online choice architectures.\n[https://doi.org/10.31219/osf.io/haqu9_v1]\nRuggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9).\nGlobal well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.\n[https://doi.org/10.31234/osf.io/3jyda_v1]",
+    "crumbs": [
+      "Home",
+      "Research"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Philippe Sloksnath",
     "section": "",
-    "text": "# Hello, fellow traveler.\nI am a Research and Teaching Assistant at the  Department of Communication and Media Research  at University of Zurich, in the Media Psychology & Methods Division. My research is situated in Communication Science, Psychology and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!"
+    "text": "Hello, fellow traveler.\nI am a Research and Teaching Assistant at the  Department of Communication and Media Research  at University of Zurich. My research is situated in Communication Science, Psychology and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
-    "objectID": "index.html#contact-information",
-    "href": "index.html#contact-information",
+    "objectID": "index.html#open-science",
+    "href": "index.html#open-science",
     "title": "Philippe Sloksnath",
-    "section": "Contact Information",
-    "text": "Contact Information"
+    "section": "Open Science",
+    "text": "Open Science\nI value scientific integrity because it brings together core principles that are essential for building and maintaining trust among scientists and between science and society. Adherence to honesty, transparency, and accountability is in my view crucial for the accumulation of reliable, cumulative knowledge. Thus, I strive to make my research as transparent and reproducible as possible. Please reach out if anything is unclear, insufficiently reported, not reproducible, or if you have suggestions for improvement, or if you just want to informally chat about Open Science.",
+    "crumbs": [
+      "Home"
+    ]
   }
 ]

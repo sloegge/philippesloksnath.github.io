@@ -4,31 +4,12 @@ description: ""
 ---
 
 ![](images/philippe.jpg){.profile}
-# Hello, fellow traveler.
+Hello, fellow traveler.
 
-I am a Research and Teaching Assistant at the <a href="https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/philippe-sloksnath.html" target="_blank"> Department of Communication and Media Research </a> at University of Zurich, in the Media Psychology & Methods Division. My research is situated in Communication Science, Psychology and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!
+I am a Research and Teaching Assistant at the <a href="https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/philippe-sloksnath.html" target="_blank"> Department of Communication and Media Research </a> at University of Zurich. My research is situated in Communication Science, Psychology and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!
 
-## Contact Information
 
-<div class="social-icons">
-  <a href="mailto:philippe.sloksnath@uzh.ch" aria-label="Email">
-    <i class="bi bi-envelope"></i>
-  </a>
-  <a href="https://github.com/sloegge" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-    <i class="bi bi-github"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/philippe-sloksnath" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-    <i class="bi bi-linkedin"></i>
-  </a>
-  <a href="https://bsky.app/profile/philippesloksnath.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">
-    <i class="bi bi-cloud"></i>
-  </a>
-  <a href="https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-</div>
-
-# Open Science
+## Open Science
 I value scientific integrity because it brings together core principles that are essential for building and maintaining trust among scientists and between science and society. Adherence to honesty, transparency, and accountability is in my view crucial for the accumulation of reliable, cumulative knowledge. Thus, I strive to make my research as transparent and reproducible as possible. 
 Please reach out if anything is unclear, insufficiently reported, not reproducible, or if you have suggestions for improvement, or if you just want to informally chat about Open Science.
 

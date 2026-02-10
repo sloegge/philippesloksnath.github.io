@@ -1,0 +1,46 @@
+---
+title: "Contact"
+toc: false
+---
+
+<div class="contact-sidebar">
+  <div class="social-icons">
+    <a href="mailto:philippe.sloksnath@uzh.ch"
+       aria-label="Email"
+       data-tooltip="Email">
+      <i class="bi bi-envelope"></i>
+    </a>
+
+    <a href="https://github.com/sloegge"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="GitHub"
+       data-tooltip="GitHub">
+      <i class="bi bi-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/philippe-sloksnath"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="LinkedIn"
+       data-tooltip="LinkedIn">
+      <i class="bi bi-linkedin"></i>
+    </a>
+
+    <a href="https://bsky.app/profile/philippesloksnath.bsky.social"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Bluesky"
+       data-tooltip="Bluesky">
+      <i class="si si-bluesky"></i>
+    </a>
+
+    <a href="https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Google Scholar"
+       data-tooltip="Google Scholar">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+  </div>
+</div>
