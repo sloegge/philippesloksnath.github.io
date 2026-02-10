@@ -8,14 +8,14 @@ description: Here you find a collection of research projects I am or was involve
 Coming soon (I hope).
 
 ## Preprints
-- **Sloksnath, P. (2025).** *Delegating Moral Decisions to AI Systems.*  
+- Sloksnath, P. (2025). *Delegating Moral Decisions to AI Systems.*  
   Master’s thesis, University of Zurich.
   [Link](https://doi.org/10.5167/uzh-269413){target="_blank" rel="noopener noreferrer"}
 
-- **Stock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16).**  
+- Stock, F., Pelica, S., Ashcroft-Jones, S., Stablum, F., … Sloksnath, P., … Ruggeri, K., Hertwig, R., Lorenz-Spreen, P. (2024, December 16). 
   *People in 26 countries prefer individual control to commercial or governmental control over online choice architectures.*  
   [Link](https://doi.org/10.31219/osf.io/haqu9_v1){target="_blank" rel="noopener noreferrer"}  
 
-- **Ruggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9).**  
+- Ruggeri, K., Valenzuela-Catarí, G., Polemiti, E., … Sloksnath, P., … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9). 
   *Global well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.*  
   [Link](https://doi.org/10.31234/osf.io/3jyda_v1){target="_blank" rel="noopener noreferrer"}

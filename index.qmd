@@ -11,7 +11,7 @@ I am a Research and Teaching Assistant at the
 at University of Zurich. My research is situated in Communication Science, Psychology and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!
 :::
 
-::: {.column width="35%"}
+::: {.column width="35% profile-column"}
 ![](images/philippe.jpg){.profile}
 :::
 ::::
