@@ -74,26 +74,43 @@
   opacity: 0.4;
 }
 
+/* Ensure Quarto columns stay side-by-side and don't wrap */
+.columns {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 2rem !important;
+  align-items: flex-start;
+}
+
+.column {
+  min-width: 0;
+}
+
+.column.profile-column {
+  flex: 0 0 35%;
+}
+
+.column:not(.profile-column) {
+  flex: 1 1 auto;
+}
+
 figure.profile,
 img.profile {
-  float: right;
-  width: 320px;
-  max-width: 45%;
-  margin: 0 0 1rem 1rem;
+  float: none !important;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
   border-radius: 16px;
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
 }
 
-/* Extra space between text and profile image in columns layout */
-.profile-column {
-  padding-left: 2rem; 
-}
-
 @media (max-width: 991px) {
+  .columns {
+    display: block !important;
+  }
   figure.profile,
   img.profile {
-    float: none;
-    display: block;
     width: auto;
     max-width: 100%;
     margin: 0 auto 1rem auto;
@@ -253,4 +270,9 @@ img.profile {
   .navbar {
     transition: none !important;
   }
+}
+
+/* Make sidebar tool icons bigger */
+#quarto-sidebar .sidebar-tools i {
+  font-size: 2rem !important;
 }
