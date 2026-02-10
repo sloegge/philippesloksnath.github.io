@@ -3,8 +3,10 @@ title: "Philippe Sloksnath"
 description: ""
 ---
 
-![](images/philippe.jpg){.profile}
 ## Welcome
+
+![](images/philippe.jpg){.profile}
+
 I am a Research and Teaching Assistant at the <a href="https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/philippe-sloksnath.html" target="_blank"> Department of Communication and Media Research </a> at University of Zurich. My research is situated in Communication Science, Psychology and Human-Computer Interaction, with a particular focus AI-based persuasion, misinformation, and media effects. I care about statistical inference, and transparent and reproducible research practices. Always happy to chat, so feel free to reach out!
 
 
