@@ -6,7 +6,7 @@ website:
   title: "Philippe Sloksnath"
 
   navbar:
-    background: light
+    background: dark
     pinned: true
     left:
       - href: index.qmd
@@ -54,7 +54,7 @@ website:
 
 format:
   html:
-    theme: darkly
+    theme: spacelab
     toc: false
     include-in-header:
       text: |
