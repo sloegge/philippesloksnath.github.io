@@ -4,6 +4,12 @@ project:
 
 website:
   title: "Philippe Sloksnath"
+  site-url: "https://philippesloksnath.com"
+  description: "Research & Teaching Assistant at UZH, PhD Student."
+  open-graph:
+    image: images/social-card.png
+  twitter-card:
+    image: images/social-card.png
 
   navbar:
     background: dark
