@@ -5,11 +5,15 @@ description: ""
 
 I am a Research and Teaching Assistant at the
 [Department of Communication and Media Research](https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/philippe-sloksnath.html){target="_blank" rel="noopener noreferrer"}
-at University of Zurich. My research is situated in Communication Science, Psychology and Human–Computer Interaction, with a particular focus on AI-based persuasion, misinformation, and media effects. I care about statistical inference and transparent, reproducible research practices. Always happy to chat.
+at University of Zurich.
 
 <aside>
-  <img src="images/philippe.jpg" alt="Philippe Sloksnath" class="profile-aside">
+  <img src="images/philippe.jpg" alt="Philippe Sloksnath" class="profile">
 </aside>
+
+My research is situated in Communication Science, Psychology and Human–Computer Interaction, with a particular focus on AI-based persuasion, misinformation, and media effects. I care about statistical inference and transparent, reproducible research practices. Always happy to chat.
+
+<div style="clear: both;"></div>
 
 ## Open Science
 I value scientific integrity because it brings together core principles that are essential for building and maintaining trust among scientists and between science and society. Adherence to reliability, honesty, transparency, and accountability is the core of accumulating knowledge. Thus, I strive to make my research as reliable, transparent and reproducible as possible. 

@@ -102,3 +102,19 @@ aside {
 #quarto-sidebar a[href$="assets/cv.pdf"]:hover {
   filter: brightness(0.95);
 }
+
+aside{
+  display: block;
+}
+
+aside + p,
+aside + div,
+aside + section {
+  clear: both;
+}
+
+@media (min-width: 769px){
+  aside{
+    margin-top: 0.25rem;
+  }
+}
