@@ -8,7 +8,7 @@ description: Here you find a collection of research projects I am or was involve
 Coming soon (I hope).
 
 ## Preprints
-- - Ruggeri, K., Valenzuela-Catarí, G., Polemiti, E., … **Sloksnath, P.**, … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9). 
+- Ruggeri, K., Valenzuela-Catarí, G., Polemiti, E., … **Sloksnath, P.**, … Macchia, L., Ashcroft-Jones, S., Pelica, S. (2025, November 9). 
   *Global well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.*  
   [Link](https://doi.org/10.31234/osf.io/3jyda_v1){target="_blank" rel="noopener noreferrer"}
   

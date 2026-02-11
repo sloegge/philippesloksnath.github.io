@@ -8,11 +8,10 @@
 #quarto-sidebar,
 .quarto-sidebar,
 .sidebar {
-  background-color: #f2f6fb; /* soft blue-grey */
+  background-color: #f2f6fb;
   border-right: 1px solid #dbe4f0;
 }
 
-/* Sidebar links */
 #quarto-sidebar a,
 .quarto-sidebar a,
 .sidebar a {
@@ -42,11 +41,6 @@
   border: 1px solid #d0daea;
 }
 
-/* =============================
-   Sidebar
-============================= */
-
-/* Make the sidebar feel like content, not just nav */
 #quarto-sidebar .sidebar-item,
 .quarto-sidebar .sidebar-item,
 .sidebar .sidebar-item {
@@ -54,7 +48,6 @@
   line-height: 1.4;
 }
 
-/* Section title styling */
 #quarto-sidebar .sidebar-item strong,
 .quarto-sidebar .sidebar-item strong,
 .sidebar .sidebar-item strong {
@@ -66,7 +59,6 @@
   margin-top: 0.25rem;
 }
 
-/* Divider spacing */
 #quarto-sidebar hr,
 .quarto-sidebar hr,
 .sidebar hr {
@@ -74,62 +66,27 @@
   opacity: 0.4;
 }
 
-/* =============================
-   Homepage intro columns
-============================= */
-
-/* Desktop: two columns (text + image) */
-.columns {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 2rem;
-  align-items: flex-start;
+aside {
+  float: right;
+  width: 320px;
+  max-width: 40%;
+  margin: 0 0 1rem 1.5rem;
 }
 
-.column {
-  min-width: 0;
-}
-
-.column.profile-column {
-  flex: 0 0 35%;
-}
-
-.column:not(.profile-column) {
-  flex: 1 1 auto;
-}
-
-/* Image styling inside the right column */
 .profile {
-  display: block;
   width: 100%;
-  max-width: 100%;
-  margin: 0;
   border-radius: 16px;
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
 }
 
-/* Mobile: stack + full-width text */
 @media (max-width: 991px) {
-  .columns {
-    display: block;
-  }
-
-  .column,
-  .column.profile-column {
-    width: 100%;
-  }
-
-  .profile {
+  aside {
+    float: none;
     width: auto;
     max-width: 100%;
-    margin: 0 auto 1rem auto;
+    margin: 1rem 0;
   }
 }
-
-/* =============================
-   Sidebar tools (contact icons)
-   Quarto: website > sidebar > tools
-============================= */
 
 #quarto-sidebar .sidebar-tools,
 .quarto-sidebar .sidebar-tools,
@@ -153,9 +110,7 @@
   opacity: 0.9;
   position: relative;
   padding: 0.15rem;
-  transition: transform 0.18s ease,
-              opacity 0.18s ease,
-              color 0.18s ease;
+  transition: transform 0.18s ease, opacity 0.18s ease, color 0.18s ease;
 }
 
 #quarto-sidebar .sidebar-tools a:hover,
@@ -169,13 +124,11 @@
   outline: none;
 }
 
-/* Bigger icons (single source of truth) */
 #quarto-sidebar .sidebar-tools i {
   font-size: 2.2rem !important;
   line-height: 1;
 }
 
-/* Tooltips (desktop only) */
 #quarto-sidebar .sidebar-tools a::after,
 .quarto-sidebar .sidebar-tools a::after,
 .sidebar .sidebar-tools a::after {
@@ -235,7 +188,6 @@
   transform: translateY(-50%) translateX(2px);
 }
 
-/* Mobile: no tooltips */
 @media (max-width: 991px) {
   #quarto-sidebar .sidebar-tools a::after,
   #quarto-sidebar .sidebar-tools a::before {
@@ -258,7 +210,6 @@
   }
 }
 
-/* CV link as a button in the sidebar */
 #quarto-sidebar a[href$="assets/cv.pdf"] {
   display: inline-flex;
   align-items: center;
