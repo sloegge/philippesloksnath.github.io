@@ -58,7 +58,9 @@
 
 .profile{
   float:right;
-  width:160px;
+  width:60px !important;
+  max-width:60px !important;
+  height:auto;
   margin:0 0 1rem 2rem;
   border-radius:16px;
   box-shadow:0 0.75rem 1.5rem rgba(0,0,0,.08);
@@ -68,6 +70,8 @@
   .profile{
     float:none;
     display:block;
+    width:120px !important;
+    max-width:120px !important;
     margin:1rem auto;
   }
 }
