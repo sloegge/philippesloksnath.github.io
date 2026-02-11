@@ -1,6 +1,8 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
+  resources:
+    - CNAME
 
 website:
   title: "Philippe Sloksnath"
