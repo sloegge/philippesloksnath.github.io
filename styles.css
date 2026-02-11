@@ -56,19 +56,21 @@
   filter: brightness(.95);
 }
 
-img.profile,
-figure.profile img,
-figure .profile {
-  width: 120px !important;
-  max-width: 120px !important;
+
+img.profile{
+  width: 100px !important;
+  max-width: 100px !important;
   height: auto !important;
+  float: right;
+  margin: 0 0 1rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.08);
 }
 
-@media (max-width: 768px) {
-  img.profile,
-  figure.profile img,
-  figure .profile {
-    width: 160px !important;
-    max-width: 160px !important;
+@media (max-width: 768px){
+  img.profile{
+    float: none;
+    display: block;
+    margin: 1rem auto;
   }
 }
