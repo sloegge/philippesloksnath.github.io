@@ -57,7 +57,7 @@
 }
 
 img.profile{
-  width: 200px;
+  width: 260px;
   height: auto;
   float: right;
   margin: 0 0 1rem 1.5rem;
@@ -70,7 +70,7 @@ img.profile{
     float: none;
     display: block;
     margin: 0 0 1rem 0;
-    width: 200px;
+    width: 260px;
     max-width: 60%;
   }
 }
