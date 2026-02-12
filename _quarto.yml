@@ -64,7 +64,7 @@ website:
         target: _blank
         rel: noopener noreferrer
         aria-label: Google Scholar
-      - icon: Orcid
+      - icon: person-badge
         href: https://orcid.org/0009-0004-5792-6768
         target: _blank
         rel: noopener noreferrer
