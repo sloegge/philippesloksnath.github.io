@@ -1,17 +1,19 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
   resources:
     - CNAME
 
 website:
   title: "Philippe Sloksnath"
   site-url: "https://philippesloksnath.com"
-  description: "Research & Teaching Assistant at UZH, PhD Student."
+  description: "Research & Teaching Assistant at the University of Zurich."
   open-graph:
-    image: images/social-card.png
+    image: images/philippe.jpg
   twitter-card:
-    image: images/social-card.png
+    image: images/philippe.jpg
 
   navbar:
     background: dark
