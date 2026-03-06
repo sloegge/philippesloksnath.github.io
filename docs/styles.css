@@ -1,81 +1,150 @@
-/* Font */
-body, .navbar, #quarto-sidebar {
-  font-family: 'Inter', sans-serif;
+/* ── Variables ────────────────────────────────────────────── */
+:root {
+  --accent:      #2563eb;
+  --text:        #1e293b;
+  --muted:       #64748b;
+  --bg-sidebar:  #f8fafc;
+  --border:      #e2e8f0;
+  --font:        'Inter', sans-serif;
 }
 
-/* Navbar */
+/* ── Global font (override Quarto theme) ─────────────────── */
+*, *::before, *::after,
+body, h1, h2, h3, h4, h5, h6,
+p, a, li, span, div, blockquote,
+.navbar, #quarto-sidebar,
+.quarto-title, .quarto-title-meta,
+.sidebar-item-text, .menu-text {
+  font-family: var(--font) !important;
+}
+
+/* ── Navbar ───────────────────────────────────────────────── */
 .navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1030;
-  background: var(--bs-dark) !important;
-  box-shadow: 0 0.125rem 0.375rem rgba(0,0,0,.1);
-  font-size: 15px;
-  font-weight: 300;
+  background: #0f172a !important;
+  border-bottom: 1px solid rgba(255,255,255,.07);
+  padding: 0.55rem 1.5rem;
+  box-shadow: none;
 }
 
-.navbar .navbar-brand,
+.navbar .navbar-brand {
+  color: #f8fafc !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
 .navbar .nav-link {
-  color: var(--bs-light) !important;
+  color: rgba(248,250,252,.65) !important;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding: 0.35rem 0.7rem !important;
+  border-radius: 0.375rem;
+  transition: color 0.15s, background 0.15s;
 }
 
-.navbar .nav-link:hover {
-  color: var(--bs-primary) !important;
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #f8fafc !important;
+  background: rgba(255,255,255,.09);
 }
 
-/* Sidebar */
+/* ── Sidebar ──────────────────────────────────────────────── */
 #quarto-sidebar {
-  background-color: #f5f7fa;
-  border-right: 1px solid #dbe4f0;
+  background: var(--bg-sidebar);
+  border-right: 1px solid var(--border);
 }
 
-#quarto-sidebar a { color: #1f3a5f; }
-#quarto-sidebar a:hover { color: var(--bs-primary); }
-#quarto-sidebar .active { font-weight: 600; color: var(--bs-primary); }
-
-/* Sidebar tools — horizontal wrap */
-#quarto-sidebar .sidebar-tools {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.75rem;
-  margin-top: 0.75rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid rgba(0,0,0,.08);
+/* Section label (e.g. "Research Interests") */
+.sidebar-section > .sidebar-item > .sidebar-item-container .sidebar-link,
+.sidebar-section-item > .sidebar-item-container > a {
+  font-size: 0.68rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--muted) !important;
+  pointer-events: none;
 }
 
-#quarto-sidebar .sidebar-tools i {
-  font-size: 1.4rem !important;
-  line-height: 1;
+/* Interest badges */
+#quarto-sidebar .sidebar-item-container:not(:has(a)) {
+  padding: 0.1rem 0;
+}
+
+#quarto-sidebar .sidebar-item-container:not(:has(a)) .menu-text {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(37,99,235,.09);
+  color: var(--accent);
+  font-size: 0.75rem !important;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* Links in sidebar */
+#quarto-sidebar a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+#quarto-sidebar a:hover {
+  color: var(--accent);
 }
 
 /* CV button */
 #quarto-sidebar a[href$="assets/cv.pdf"] {
   display: inline-flex;
   align-items: center;
-  gap: .5rem;
-  padding: .5rem .75rem;
-  border-radius: .6rem;
-  background: var(--bs-primary);
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 0.5rem;
+  background: var(--accent);
   color: #fff !important;
-  text-decoration: none;
+  font-size: 0.84rem !important;
+  font-weight: 500;
+  transition: filter 0.15s;
 }
 
 #quarto-sidebar a[href$="assets/cv.pdf"]:hover {
-  filter: brightness(.95);
+  filter: brightness(0.88);
 }
 
-/* Profile photo — circular */
+/* Social icon tools row */
+#quarto-sidebar .sidebar-tools-main,
+#quarto-sidebar .sidebar-tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+  margin-top: 1rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border);
+}
+
+#quarto-sidebar .sidebar-tools-main a,
+#quarto-sidebar .sidebar-tools a {
+  color: var(--muted) !important;
+  font-size: 1.2rem;
+  transition: color 0.15s, transform 0.15s;
+}
+
+#quarto-sidebar .sidebar-tools-main a:hover,
+#quarto-sidebar .sidebar-tools a:hover {
+  color: var(--accent) !important;
+  transform: translateY(-2px);
+}
+
+/* ── Profile photo ────────────────────────────────────────── */
 img.profile {
-  width: 220px;
-  height: 220px;
+  width: 205px;
+  height: 205px;
   object-fit: cover;
   float: right;
-  margin: 0 0 1rem 1.5rem;
+  margin: 0 0 1rem 1.75rem;
   border-radius: 50%;
-  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.12);
+  box-shadow: 0 0.25rem 1.25rem rgba(0,0,0,.12);
 }
 
 @media (max-width: 768px) {
@@ -83,28 +152,12 @@ img.profile {
     float: none;
     display: block;
     margin: 0 auto 1.5rem;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
 }
 
-/* Research Interests badges */
-#quarto-sidebar .sidebar-item-container:not(:has(a)) {
-  padding: 0.1rem 0;
-}
-
-#quarto-sidebar .sidebar-item-container:not(:has(a)) .menu-text {
-  display: inline-block;
-  padding: 0.2rem 0.6rem;
-  border-radius: 1rem;
-  background: rgba(31, 58, 95, 0.08);
-  color: #1f3a5f;
-  font-size: 0.78rem;
-  font-weight: 500;
-  line-height: 1.4;
-}
-
-/* Preprint citation cards */
+/* ── Preprint / publication cards ────────────────────────── */
 .preprints ul {
   padding-left: 0;
   list-style: none;
@@ -112,49 +165,55 @@ img.profile {
 
 .preprints li {
   background: #f8fafc;
-  border-left: 3px solid var(--bs-primary);
+  border-left: 3px solid var(--accent);
   border-radius: 0 0.5rem 0.5rem 0;
   padding: 0.75rem 1rem;
   margin-bottom: 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--text);
 }
 
-/* Contact page social icons */
+/* ── Contact social icons ─────────────────────────────────── */
 .social-icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 1.5rem;
+  gap: 2rem 2.5rem;
+  margin-top: 2rem;
 }
 
 .social-icons a {
   position: relative;
-  color: #1f3a5f;
-  font-size: 2.5rem;
+  color: var(--text);
+  font-size: 2rem;
   line-height: 1;
   text-decoration: none;
   transition: color 0.2s, transform 0.2s;
 }
 
 .social-icons a:hover {
-  color: var(--bs-primary);
+  color: var(--accent);
   transform: translateY(-3px);
 }
 
+/* Tooltip */
 .social-icons a::after {
   content: attr(data-tooltip);
   position: absolute;
-  bottom: -2rem;
+  top: calc(100% + 0.55rem);
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(0,0,0,0.72);
-  color: #fff;
-  padding: 0.2rem 0.5rem;
+  background: rgba(15,23,42,.88);
+  color: #f8fafc;
+  padding: 0.2rem 0.6rem;
   border-radius: 0.3rem;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
+  font-family: var(--font);
   white-space: nowrap;
   opacity: 0;
-  transition: opacity 0.2s;
   pointer-events: none;
+  transition: opacity 0.18s;
+  z-index: 10;
 }
 
 .social-icons a:hover::after {

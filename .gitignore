@@ -10,6 +10,7 @@ _site/
 *_cache/
 *.utf8.md
 *.knit.md
+*.CLAUDE.md
 
 # OS / editor
 .DS_Store
