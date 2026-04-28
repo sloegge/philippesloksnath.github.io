@@ -1,42 +1,48 @@
 /* ── Variables ────────────────────────────────────────────── */
 :root {
-  --accent:      #2563eb;
-  --text:        #1e293b;
-  --muted:       #64748b;
-  --bg-sidebar:  #f8fafc;
-  --border:      #e2e8f0;
-  --font:        'Inter', sans-serif;
+  --accent:   #2563eb;
+  --text:     #1e293b;
+  --muted:    #64748b;
+  --border:   #e2e8f0;
+  --font:     'Inter', sans-serif;
 }
 
-/* ── Global font (override Quarto theme) ─────────────────── */
+/* ── Global font ──────────────────────────────────────────── */
 *, *::before, *::after,
 body, h1, h2, h3, h4, h5, h6,
-p, a, li, span, div, blockquote,
-.navbar, #quarto-sidebar,
-.quarto-title, .quarto-title-meta,
-.sidebar-item-text, .menu-text {
+p, a, li, span, div, blockquote {
   font-family: var(--font) !important;
+}
+
+/* ── Suppress empty Quarto title block ───────────────────── */
+#title-block-header {
+  display: none;
+}
+
+/* ── Content width ────────────────────────────────────────── */
+#quarto-content .page-columns,
+.page-columns .page-full {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ── Navbar ───────────────────────────────────────────────── */
 .navbar {
-  background: #0f172a !important;
-  border-bottom: 1px solid rgba(255,255,255,.07);
+  border-bottom: 1px solid var(--border);
   padding: 0.55rem 1.5rem;
-  box-shadow: none;
 }
 
 .navbar .navbar-brand {
-  color: #f8fafc !important;
   font-weight: 500;
   font-size: 0.95rem;
-  letter-spacing: 0.01em;
+  color: var(--text) !important;
 }
 
 .navbar .nav-link {
-  color: rgba(248,250,252,.65) !important;
   font-size: 0.875rem;
   font-weight: 400;
+  color: var(--muted) !important;
   padding: 0.35rem 0.7rem !important;
   border-radius: 0.375rem;
   transition: color 0.15s, background 0.15s;
@@ -44,117 +50,136 @@ p, a, li, span, div, blockquote,
 
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
-  color: #f8fafc !important;
-  background: rgba(255,255,255,.09);
+  color: var(--text) !important;
+  background: rgba(0,0,0,.05);
 }
 
-/* ── Sidebar ──────────────────────────────────────────────── */
-#quarto-sidebar {
-  background: var(--bg-sidebar);
-  border-right: 1px solid var(--border);
+/* ── Profile header ───────────────────────────────────────── */
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin: 2.5rem 0 2rem;
 }
 
-/* Section label (e.g. "Research Interests") */
-.sidebar-section > .sidebar-item > .sidebar-item-container .sidebar-link,
-.sidebar-section-item > .sidebar-item-container > a {
-  font-size: 0.68rem !important;
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 0.25rem 1.25rem rgba(0,0,0,.10);
+}
+
+.profile-name {
+  font-size: 1.75rem !important;
   font-weight: 600 !important;
-  text-transform: uppercase;
-  letter-spacing: 0.09em;
-  color: var(--muted) !important;
-  pointer-events: none;
+  color: var(--text);
+  margin: 0 0 0.2rem !important;
+  line-height: 1.2 !important;
+  border: none !important;
 }
 
-/* Interest badges */
-#quarto-sidebar .sidebar-item-container:not(:has(a)) {
-  padding: 0.1rem 0;
+.profile-role {
+  font-size: 1rem;
+  color: var(--muted);
+  margin: 0 0 0.2rem !important;
 }
 
-#quarto-sidebar .sidebar-item-container:not(:has(a)) .menu-text {
-  display: inline-block;
-  padding: 0.2rem 0.65rem;
-  border-radius: 999px;
-  background: rgba(37,99,235,.09);
-  color: var(--accent);
-  font-size: 0.75rem !important;
-  font-weight: 500;
+.profile-dept {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0 0 1rem !important;
   line-height: 1.5;
 }
 
-/* Links in sidebar */
-#quarto-sidebar a {
-  color: var(--text);
-  text-decoration: none;
+.profile-dept a {
+  color: var(--text) !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
-#quarto-sidebar a:hover {
-  color: var(--accent);
+.profile-dept a:hover {
+  color: var(--accent) !important;
 }
 
-/* CV button */
-#quarto-sidebar a[href$="assets/cv.pdf"] {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.5rem;
-  padding: 0.45rem 0.9rem;
-  border-radius: 0.5rem;
-  background: var(--accent);
-  color: #fff !important;
-  font-size: 0.84rem !important;
-  font-weight: 500;
-  transition: filter 0.15s;
-}
-
-#quarto-sidebar a[href$="assets/cv.pdf"]:hover {
-  filter: brightness(0.88);
-}
-
-/* Social icon tools row */
-#quarto-sidebar .sidebar-tools-main,
-#quarto-sidebar .sidebar-tools {
+/* ── Profile social icons ─────────────────────────────────── */
+.profile-social {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem 0.75rem;
-  margin-top: 1rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid var(--border);
 }
 
-#quarto-sidebar .sidebar-tools-main a,
-#quarto-sidebar .sidebar-tools a {
+.profile-social a {
   color: var(--muted) !important;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  text-decoration: none !important;
   transition: color 0.15s, transform 0.15s;
+  position: relative;
 }
 
-#quarto-sidebar .sidebar-tools-main a:hover,
-#quarto-sidebar .sidebar-tools a:hover {
+.profile-social a:hover {
   color: var(--accent) !important;
   transform: translateY(-2px);
 }
 
-/* ── Profile photo ────────────────────────────────────────── */
-img.profile {
-  width: 205px;
-  height: 205px;
-  object-fit: cover;
-  float: right;
-  margin: 0 0 1rem 1.75rem;
-  border-radius: 50%;
-  box-shadow: 0 0.25rem 1.25rem rgba(0,0,0,.12);
+.profile-social a::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(15,23,42,.88);
+  color: #f8fafc;
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.3rem;
+  font-size: 0.68rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  z-index: 10;
 }
 
-@media (max-width: 768px) {
-  img.profile {
-    float: none;
-    display: block;
-    margin: 0 auto 1.5rem;
-    width: 160px;
-    height: 160px;
-  }
+.profile-social a:hover::after {
+  opacity: 1;
+}
+
+/* CV badge */
+.profile-social .cv-badge {
+  font-size: 0.75rem !important;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.35rem;
+  border: 1.5px solid var(--border);
+  color: var(--text) !important;
+  line-height: 1.5;
+}
+
+.profile-social .cv-badge:hover {
+  border-color: var(--accent);
+  color: var(--accent) !important;
+  transform: translateY(-2px);
+}
+
+/* ── Body text ────────────────────────────────────────────── */
+.page-columns p,
+.page-columns li {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text);
+}
+
+h2 {
+  font-size: 1.15rem !important;
+  font-weight: 600 !important;
+  color: var(--text);
+  margin-top: 2rem !important;
+  margin-bottom: 0.65rem !important;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
 }
 
 /* ── Preprint / publication cards ────────────────────────── */
@@ -196,7 +221,6 @@ img.profile {
   transform: translateY(-3px);
 }
 
-/* Tooltip */
 .social-icons a::after {
   content: attr(data-tooltip);
   position: absolute;
@@ -208,7 +232,6 @@ img.profile {
   padding: 0.2rem 0.6rem;
   border-radius: 0.3rem;
   font-size: 0.7rem;
-  font-family: var(--font);
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
@@ -218,4 +241,60 @@ img.profile {
 
 .social-icons a:hover::after {
   opacity: 1;
+}
+
+/* ── Career timeline ──────────────────────────────────────── */
+.career {
+  margin-top: 0.5rem;
+}
+
+.career-entry {
+  display: flex;
+  gap: 1.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.career-entry:last-child {
+  border-bottom: none;
+}
+
+.career-date {
+  flex: 0 0 140px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  padding-top: 0.1rem;
+  white-space: nowrap;
+}
+
+.career-info p {
+  font-size: 0.9rem !important;
+  line-height: 1.6 !important;
+  margin: 0 0 0.25rem !important;
+  color: var(--text);
+}
+
+.career-info p:last-child {
+  margin-bottom: 0 !important;
+  color: var(--muted);
+}
+
+/* ── Mobile ───────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0 1.5rem;
+  }
+
+  .profile-photo {
+    width: 130px;
+    height: 130px;
+  }
+
+  .profile-social {
+    justify-content: center;
+  }
 }

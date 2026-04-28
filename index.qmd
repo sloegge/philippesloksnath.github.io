@@ -1,15 +1,108 @@
 ---
-title: "Philippe Sloksnath"
+title: ""
 pagetitle: "Philippe Sloksnath"
 description: "Research & Teaching Assistant at the University of Zurich studying AI-based persuasion, misinformation, and media effects."
 ---
 
-<img src="images/philippe.jpg" class="profile" alt="Philippe Sloksnath">
+```{=html}
+<div class="profile-header">
+  <img src="images/philippe.jpg" class="profile-photo" alt="Philippe Sloksnath">
+  <div class="profile-info">
+    <p class="profile-name">Philippe Sloksnath</p>
+    <p class="profile-role">Research &amp; Teaching Assistant</p>
+    <p class="profile-dept">
+      <a href="https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/philippe-sloksnath.html" target="_blank" rel="noopener noreferrer">Department of Communication and Media Research</a>,
+      University of Zurich
+    </p>
+    <div class="profile-social">
+      <a href="mailto:philippe.sloksnath@uzh.ch" aria-label="Email" data-tooltip="Email"><i class="bi bi-envelope"></i></a>
+      <a href="https://github.com/sloegge" target="_blank" rel="noopener noreferrer" aria-label="GitHub" data-tooltip="GitHub"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/philippe-sloksnath" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" data-tooltip="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://bsky.app/profile/philippesloksnath.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky" data-tooltip="Bluesky"><i class="bi bi-bluesky"></i></a>
+      <a href="https://scholar.google.com/citations?hl=de&user=80htikoAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" data-tooltip="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://orcid.org/0009-0004-5792-6768" target="_blank" rel="noopener noreferrer" aria-label="ORCID" data-tooltip="ORCID"><i class="ai ai-orcid"></i></a>
+      <a href="assets/cv.pdf" target="_blank" class="cv-badge" aria-label="CV" data-tooltip="Curriculum Vitae">CV</a>
+    </div>
+  </div>
+</div>
+```
 
-I am a Research and Teaching Assistant at the
-[Department of Communication and Media Research](https://www.ikmz.uzh.ch/en/research/divisions/mediapsychology-and-methods/team/philippe-sloksnath.html){target="_blank" rel="noopener noreferrer"}
-at University of Zurich. My research is situated in Communication Science, Psychology and Human–Computer Interaction, with a particular focus on AI-based persuasion, misinformation, and media effects. I care about statistical inference and transparent, reproducible research practices. Always happy to chat.
+I am a Research and Teaching Assistant at the Department of Communication and Media Research, supervised by 
+[Tobias Dienlin](https://www.tobiasdienlin.com/){target="_blank" rel="noopener noreferrer"}
+at University of Zurich. My research is situated in Communication Science, Psychology and Human–Computer Interaction. I care about statistical inference and transparent, reproducible research practices. Always happy to chat.
 
+I am interested in understanding how AI systems influence human beliefs, attitudes and behavior, how this may impact our society and how AI-based persuasion relates to perceived autonomy. In particular, my research interests include:
 
-## Open Science
-I value scientific integrity and strive to make my research as reliable, transparent, and reproducible as possible. Please reach out if anything is unclear, insufficiently reported, or not reproducible.
+- **AI-based persuasion:** I study how AI-generated content shapes attitudes and beliefs, and what makes AI-produced messages more or less persuasive than human-authored ones.
+
+- **Misinformation:** I examine how we can improve people's detection of false or misleading information, and how it affects people's beliefs and decisions.
+
+- **Human–computer interaction:** I explore how people engage with and form mental models of AI systems, including the social and psychological consequences of interacting with AI in everyday contexts.
+
+- **Open science:** I value scientific integrity and strive to make my research as reliable, transparent, and reproducible as possible. Please reach out if anything is unclear, insufficiently reported, or not reproducible.
+
+## Publications & Preprints
+
+## Career
+
+```{=html}
+<div class="career">
+
+  <div class="career-entry">
+    <div class="career-date">Since 06/2025</div>
+    <div class="career-info">
+      <p><strong>Division of Media Psychology and Methods</strong>, Department of Communication and Media Research, University of Zurich</p>
+      <p>PhD Project: Examining media effects of AI-generated information, with a focus on influencing factors related to trustworthiness and persuasion</p>
+    </div>
+  </div>
+
+  <div class="career-entry">
+    <div class="career-date">05/2025 – 02/2026</div>
+    <div class="career-info">
+      <p><strong>IDea_LAB</strong>, University of Graz</p>
+      <p>Statistical data analysis of pilot studies and experiments and visualizations with Prof. Dr. Markus Kneer</p>
+    </div>
+  </div>
+
+  <div class="career-entry">
+    <div class="career-date">06/2024 – 08/2024</div>
+    <div class="career-info">
+      <p><strong>Policy Research Group</strong>, University of Cambridge</p>
+      <p>Visiting Research Student</p>
+    </div>
+  </div>
+
+  <div class="career-entry">
+    <div class="career-date">02/2024 – 04/2025</div>
+    <div class="career-info">
+      <p><strong>Division of Individual Differences and Assessment</strong>, Department of Psychology, University of Zurich</p>
+      <p>Student Assistant / Tutor — Data curation and preparation, topic modelling, language processing, and meta-analysis on the topic of solitude with Dr. Michael D. Krämer. Tutor for the lecture on Test Theory with Dr. Lisa Wagner.</p>
+    </div>
+  </div>
+
+  <div class="career-entry">
+    <div class="career-date">09/2022 – 04/2025</div>
+    <div class="career-info">
+      <p><strong>Conaptis GmbH</strong>, Switzerland — Project Assistant (40%)</p>
+      <p>Support in projects concerning the implementation of occupational health management, workshops, and lectures, as well as administrative tasks</p>
+    </div>
+  </div>
+
+  <div class="career-entry">
+    <div class="career-date">11/2019 – 10/2022</div>
+    <div class="career-info">
+      <p><strong>Schweizer Radio und Fernsehen SRF</strong>, Switzerland — Staff Archive (40%)</p>
+      <p>Revision of formal metadata in the archive database</p>
+    </div>
+  </div>
+
+  <div class="career-entry">
+    <div class="career-date">11/2019 – 04/2021</div>
+    <div class="career-info">
+      <p><strong>Casino Zürichsee AG</strong>, Switzerland — Croupier (20%)</p>
+      <p>Black Jack and Poker Dealer at Swiss Casino Pfäffikon SZ</p>
+    </div>
+  </div>
+
+</div>
+```
