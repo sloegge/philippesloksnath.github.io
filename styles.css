@@ -35,6 +35,7 @@ p, a, li, span, div, blockquote {
 
 /* ── Navbar ───────────────────────────────────────────────── */
 .navbar {
+  background-color: #ffffff !important;
   border-bottom: 1px solid var(--border);
   padding: 0.55rem 1.5rem;
 }
