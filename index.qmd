@@ -65,7 +65,7 @@ Coming soon.
   *Global well-being in 2025: A multidimensional analysis of mental, financial, and social health in 92 countries.*
   [Link](https://doi.org/10.31234/osf.io/3jyda_v1){target="_blank" rel="noopener noreferrer"}
 
-- Sloksnath, P. (2025). *Delegating Moral Decisions to AI Systems.*
+- **Sloksnath, P.** (2025). *Delegating Moral Decisions to AI Systems.*
   Master’s thesis, University of Zurich.
   [Link](https://doi.org/10.5167/uzh-269413){target="_blank" rel="noopener noreferrer"}
 
@@ -124,14 +124,6 @@ Coming soon.
     <div class="career-info">
       <p><strong>Schweizer Radio und Fernsehen SRF</strong>, Switzerland — Staff Archive (40%)</p>
       <p>Revision of formal metadata in the archive database</p>
-    </div>
-  </div>
-
-  <div class="career-entry">
-    <div class="career-date">11/2019 – 04/2021</div>
-    <div class="career-info">
-      <p><strong>Casino Zürichsee AG</strong>, Switzerland — Croupier (20%)</p>
-      <p>Black Jack and Poker Dealer at Swiss Casino Pfäffikon SZ</p>
     </div>
   </div>
 
