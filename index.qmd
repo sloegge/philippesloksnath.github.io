@@ -40,7 +40,7 @@ I am a Research and Teaching Assistant at the Department of Communication and Me
 [Tobias Dienlin](https://www.tobiasdienlin.com/){target="_blank" rel="noopener noreferrer"}
 at University of Zurich. Previously, I studied psychology at the University of Zurich. My research is situated in Communication Science, Psychology and Human–Computer Interaction. I care about statistical inference and transparent, reproducible research practices. Feel free to reach out — I'm always happy to chat about research, collaboration, or anything else. **Email:** p.sloksnath[at]ikmz.uzh.ch.
 
-I am an Editor for  [DOCA - Database of Variables for Content Analysis](https://www.hope.uzh.ch/doca){target="_blank" rel="noopener noreferrer"}. 
+I am an Editor for  [DOCA - Database of Variables for Content Analysis](https://www.hope.uzh.ch/doca){target="_blank" rel="noopener noreferrer"}. The **open access** database compiles, systematizes, and evaluates relevant content-analytical variables of communication and political science research areas and topics. It serves as a foundation for answering questions about research designs and operationalizations resorting to content analysis and helps standardize and compare studies. Here is the link for our [Call for Submissions](https://www.hope.uzh.ch/doca/call){target="_blank" rel="noopener noreferrer"}.
 
 I am interested in understanding how AI systems influence human beliefs, attitudes and behavior, how this may impact our society and how AI-based persuasion relates to perceived autonomy. In particular, my research interests include:
 
@@ -76,7 +76,7 @@ Coming soon.
   [Link](https://doi.org/10.31219/osf.io/haqu9_v1){target="_blank" rel="noopener noreferrer"}
 :::
 
-## Career {#career}
+# Career {#career}
 
 ```{=html}
 <div class="career">
