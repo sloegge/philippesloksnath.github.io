@@ -38,7 +38,9 @@ description: "Research & Teaching Assistant at the University of Zurich studying
 
 I am a Research and Teaching Assistant at the Department of Communication and Media Research, supervised by 
 [Tobias Dienlin](https://www.tobiasdienlin.com/){target="_blank" rel="noopener noreferrer"}
-at University of Zurich. My research is situated in Communication Science, Psychology and Human–Computer Interaction. I care about statistical inference and transparent, reproducible research practices. Always happy to chat.
+at University of Zurich. Previously, I studied psychology at the University of Zurich. My research is situated in Communication Science, Psychology and Human–Computer Interaction. I care about statistical inference and transparent, reproducible research practices. Feel free to reach out — I'm always happy to chat about research, collaboration, or anything else. **Email:** p.sloksnath[at]ikmz.uzh.ch.
+
+I am an Editor for  [DOCA - Database of Variables for Content Analysis](https://www.hope.uzh.ch/doca){target="_blank" rel="noopener noreferrer"}. 
 
 I am interested in understanding how AI systems influence human beliefs, attitudes and behavior, how this may impact our society and how AI-based persuasion relates to perceived autonomy. In particular, my research interests include:
 
