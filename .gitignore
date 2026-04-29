@@ -7,6 +7,8 @@
 # Quarto
 .quarto/
 _site/
+research.qmd
+contact.qmd
 *_cache/
 *.utf8.md
 *.knit.md

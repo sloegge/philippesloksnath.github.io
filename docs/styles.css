@@ -14,6 +14,12 @@ p, a, li, span, div, blockquote {
   font-family: var(--font) !important;
 }
 
+/* ── Academicons font fix (prevent global Inter override) ─── */
+[class^="ai-"]::before,
+[class*=" ai-"]::before {
+  font-family: "Academicons" !important;
+}
+
 /* ── Suppress empty Quarto title block ───────────────────── */
 #title-block-header {
   display: none;
@@ -241,6 +247,30 @@ h2 {
 
 .social-icons a:hover::after {
   opacity: 1;
+}
+
+/* ── Section navigation (Sacha Altay style) ──────────────── */
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+  border-bottom: 1px solid var(--border);
+  margin: 0 0 1.75rem;
+  padding-bottom: 0.35rem;
+}
+
+.section-nav a {
+  font-size: 0.875rem !important;
+  color: var(--muted) !important;
+  text-decoration: none !important;
+  padding: 0.3rem 0.65rem;
+  border-radius: 0.35rem;
+  transition: color 0.15s, background 0.15s;
+}
+
+.section-nav a:hover {
+  color: var(--text) !important;
+  background: rgba(0,0,0,.05);
 }
 
 /* ── Career timeline ──────────────────────────────────────── */
